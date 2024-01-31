@@ -1,0 +1,80 @@
+.home-container {
+  height: 300px;
+  color: white;
+  padding-left: 150px;
+}
+
+.home-content h2 {
+  padding: 5px;
+  padding-top: 70px;
+  color: #1e2125;
+
+  /* margin-left: 150px; */
+}
+
+.home-content h1 {
+  color: #ff014f;
+  padding: 5px;
+  /* margin-left: 150px; */
+}
+
+.home-buttons {
+  /* margin-left: 150px; */
+  margin-top: 20px;
+}
+
+.home-buttons .btn-hire {
+  background-image: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  color: #ff014f;
+}
+
+.home-buttons .btn-hire:hover {
+  background-image: linear-gradient(#ff014f, #d11414);
+  color: #ffffff;
+}
+
+.home-buttons .btn-cv {
+  background-image: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  color: #ff014f;
+  margin-left: 15px;
+}
+
+.home-buttons .btn-cv:hover {
+  background-image: linear-gradient(#ff014f, #d11414);
+  color: #ffffff;
+}
+
+.theme-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  background-color: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  color: #ff014f;
+  text-align: center;
+  position: fixed;
+  right: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+
+/* =============== */
+@media (max-width: 600px) {
+  .home-container {
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+  }
+
+  .home-container h2 {
+    font-size: 24px;
+  }
+
+  .home-container h1 {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,115 @@
+.contact {
+    margin-left: 150px;
+    margin-bottom: 60px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-image: linear-gradient(145deg, #e2e8ec, #e2e8ec);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+
+}
+
+.contact h2 {
+    color: #1e2125;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.contact hr {
+    color: #f9004d;
+    width: 250px;
+    margin: 10px auto;
+}
+
+.card1 {
+    margin: 0px 40px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*
+.card1 .image {
+    padding: 30px;
+    margin-top: 30px;
+    height: 100%;
+    width: 100%;
+}*/
+
+.border-line {
+    border-right: 1px solid #e0e0e0;
+}
+
+.line {
+    height: 1px;
+    width: 45%;
+    background-color: #e0e0e0;
+    margin-top: 10px;
+}
+
+.or {
+    display: flex;
+    width: 10%;
+    font-weight: bold;
+}
+
+::placeholder {
+    color: #bdbdbd;
+    opacity: 1;
+    font-weight: 300;
+}
+
+input,
+textarea {
+    padding: 10px 12px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-top: 2px;
+    width: 100%;
+    color: #138781;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+input:focus,
+textarea:focus {
+    box-shadow: none !important;
+    outline: 1px solid #138781 !important;
+    outline-width: 0px;
+}
+
+button:focus {
+    box-shadow: none;
+    outline-width: 0px;
+}
+
+.button {
+    background-color: #1e1e2c;
+    color: white;
+    border-radius: 2px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.button:hover {
+    background-color: #000;
+    color: white;
+}
+
+/* ***************** */
+@media (max-width: 600px) {
+    .contact {
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    .contact .card2 {
+        margin: 0;
+    }
+
+    .contact .card2 h6 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
